@@ -1,0 +1,18 @@
+============================================================
+             CSE 391 ASSIGNMENT 1 - PROMPT LOG
+============================================================
+
+Prompt 1 :
+"I am creating my personal portfolio page in HTML for my CSE 391 web programming course. Can you show me the clean HTML structure for a header and navigation bar that includes anchor links to sections on the same page, an internal link to projects.html, and an external link to BRAC University?"
+
+Prompt 2 :
+"I am trying to understand how table cell merging works in HTML. Can you explain the difference between `rowspan` and `colspan`, and show me how to structure a table where certain rows contain multi-line paragraphs and stay responsive on mobile screens?"
+
+Prompt 3 :
+"What is the best practice for separating styles into an external CSS file versus internal blocks? Can you explain how CSS custom variables (:root) work so I can implement a clean dark/light mode toggle for my webpage layout?"
+
+Prompt 4 :
+"How does vanilla JavaScript access the browser's current URL and the file's metadata? Can you explain how `window.location.href` and `document.lastModified` work so I can display the page location and modification date in my footer?"
+
+Prompt 5 :
+"Why does W3C validation check for strict document structures? Can you help me debug my HTML document to ensure it includes all required `<meta>` viewport tags, proper semantic sections, and passes validation checks without warnings?"

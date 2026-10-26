@@ -6,11 +6,7 @@
     <meta name="description" content="Personal Homepage and CSE 391 Course Hub of Rifat Farzad Azad">
     <meta name="author" content="Rifat Farzad Azad">
     <title>Rifat Farzad Azad | CSE 391 Personal Hub</title>
-
-    <!-- External CSS (Part 3.4) -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Internal CSS used sparingly for minor elements like the quote box and accent spans (Part 3.4) -->
     <style>
         .motto-box {
             border-left: 4px solid #2563eb;
@@ -27,26 +23,20 @@
     </style>
 </head>
 <body>
-
-    <!-- Top Header & Navigation (Part 1.2, 1.3 & Part 4.1) -->
     <header id="top" class="site-header fade-in">
         <div class="header-container">
             <div class="profile-area">
-                <!-- Local Image #1 + Inline CSS for width/border adjustment (Part 1.3, 3.1, 3.4) -->
                 <img src="profile.jpg" alt="Portrait of Rifat Farzad Azad" class="profile-img" style="width: 115px; height: 115px; object-fit: cover;">
                 <div>
                     <h1>Rifat Farzad Azad</h1>
-                    <p class="subtitle">Computer Science Undergraduate | Full-Stack &amp; Computer Vision Developer</p>
+                    <p class="subImagetitle">Computer Science Undergraduate | Full-Stack &amp; Computer Vision Developer</p>
                 </div>
             </div>
-
-            <!-- Bonus Challenge 2: Dark/Light Mode Toggle -->
             <button id="theme-toggle" class="theme-btn" type="button" onclick="toggleTheme()">
                 Dark/Light Mode Toggle
             </button>
         </div>
 
-        <!-- Navigation Bar: Anchor Links, Internal Link, and Required External Links (Part 1.2 & Part 2.4) -->
         <nav class="navbar">
             <a href="#personal-info">Personal Info</a>
             <a href="#about-me">About Me</a>
@@ -56,14 +46,12 @@
             <a href="#favorites">Top 10 List</a>
             <a href="#links-hub">Categorized Links</a>
             <a href="#contact">Contact</a>
-            <!-- Internal Link to another page on the website (Part 1.2) -->
             <a href="projects.html" class="nav-internal">My Projects &amp; Garage &rarr;</a>
         </nav>
     </header>
 
     <main class="container">
 
-        <!-- Section 1: Personal Info (Part 1.1 & 1.4) -->
         <section id="personal-info" class="card fade-in">
             <h2>Personal Info</h2>
             <p>
@@ -74,10 +62,8 @@
             </p>
         </section>
 
-        <!-- Section 2: About Me + Embedded Links + Quote (Part 1.4, Part 2.1, 2.2, 2.4) -->
         <section id="about-me" class="card fade-in">
             <h2>About Me</h2>
-            <!-- Text formatting: bold, italics, color variation, font size adjustment, and embedded sentence link -->
             <p>
                 Hello! I am an undergraduate software developer studying at 
                 <a href="https://www.bracu.ac.bd" target="_blank" rel="noopener noreferrer">BRAC University</a>, 
@@ -94,13 +80,11 @@
                 split at the gym, and producing short-form visual edits.
             </p>
 
-            <!-- Favorite Quote (Part 2.2) -->
             <blockquote class="motto-box">
                 "Talk is cheap. Show me the code." &mdash; <strong>Linus Torvalds</strong>
             </blockquote>
         </section>
 
-        <!-- Section 3: Education (Part 1.4) -->
         <section id="education" class="card fade-in">
             <h2>Education</h2>
             <ul>
@@ -115,7 +99,6 @@
             </ul>
         </section>
 
-        <!-- Section 4: Technical Skills + External Web Image (Part 1.4 & Part 3.1) -->
         <section id="technical-skills" class="card fade-in">
             <h2>Technical Skills</h2>
             <div class="skills-grid">
@@ -125,7 +108,6 @@
                     <p><strong>Networking &amp; Tools:</strong> Cisco Packet Tracer (VLSM, RIPv2), Git, Ubuntu Linux, VS Code</p>
                 </div>
                 <div class="web-image-box">
-                    <!-- Second Image linked from the web (Part 3.1) -->
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/120px-Python-logo-notext.svg.png" 
                          alt="Python Programming Logo from Wikimedia" 
                          style="width: 80px; height: 80px;">
@@ -134,7 +116,6 @@
             </div>
         </section>
 
-        <!-- Section 5: Structured Responsive Table with Rowspan, Colspan & Multi-line Paragraphs (Part 3.2 & 3.3) -->
         <section id="projects-table" class="card fade-in">
             <h2>Selected Projects &amp; Coursework Summary</h2>
             <p>A breakdown of key engineering projects and research milestones completed during my degree:</p>
@@ -151,7 +132,6 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <!-- Row Merging using rowspan (Part 3.2) -->
                             <td rowspan="2"><strong>Full-Stack Web Systems</strong></td>
                             <td><strong>Agro Marketplace Platform</strong></td>
                             <td>Django, JS, SQLite, Chart.js</td>
@@ -192,7 +172,6 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <!-- Column Merging using colspan (Part 3.2) -->
                             <td colspan="3" style="text-align: right; font-weight: bold;">Current Academic Standing &amp; Focus:</td>
                             <td>114+ Credits Completed | Building Web Applications in CSE 391</td>
                         </tr>
@@ -201,7 +180,6 @@
             </div>
         </section>
 
-        <!-- Section 6: Top 10 List (Part 2.3) -->
         <section id="favorites" class="card fade-in">
             <h2>Top 10 Favorite Tracks &amp; Games</h2>
             <p>Whether I am coding late at night or testing my car audio equalizer setup, here are my top 10 bass-heavy tracks and competitive games:</p>
@@ -219,7 +197,6 @@
             </ol>
         </section>
 
-        <!-- Section 7: Categorized Links (Part 1.1, 1.2 & Part 2.4) -->
         <section id="links-hub" class="card fade-in">
             <h2>Categorized Links</h2>
             <div class="links-columns">
@@ -250,7 +227,6 @@
             </div>
         </section>
 
-        <!-- Bonus Challenge 1: Contact Form that sends an email when submitted -->
         <section id="contact" class="card fade-in">
             <h2>Get in Touch</h2>
             <p>Have a question about my CSE 391 web projects or research? Send me an email directly below:</p>
@@ -273,21 +249,17 @@
 
     </main>
 
-    <!-- Footer with Copyright and JavaScript Location + Last Modified Date (Part 3.5 & Part 4.1) -->
     <footer class="site-footer">
         <p>&copy; 2026 Rifat Farzad Azad. All rights reserved. Built for CSE 391 at BRAC University.</p>
         <p id="js-page-info" class="meta-info"></p>
     </footer>
 
-    <!-- JavaScript for Page Location, Last Modification Date (Part 3.5), and Bonus Dark Mode Toggle -->
     <script>
-        // Display page location and last modification date at the bottom (Part 3.5)
         const infoElement = document.getElementById("js-page-info");
         infoElement.innerHTML = 
             "<strong>Page Location:</strong> " + window.location.href + 
             " &nbsp;|&nbsp; <strong>Last Modified:</strong> " + document.lastModified;
 
-        // Bonus Challenge 2: Toggle Dark/Light Mode class on body
         function toggleTheme() {
             document.body.classList.toggle("dark-mode");
         }

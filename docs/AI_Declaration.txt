@@ -1,0 +1,60 @@
+============================================================
+             AI USAGE DECLARATION
+============================================================
+
+Name: Rifat Farzad Azad
+Student ID: [Enter Your Student ID]
+Assignment: CSE 391 - Assignment 1: Creating a Personal Web Page
+Date: 2026-10-23
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[ ] ChatGPT
+[X] GitHub Copilot
+[X] Google Gemini
+[ ] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[X] Learning/understanding concepts
+[X] Debugging my code
+[X] Generating code snippets
+[ ] Writing text content
+[X] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+I used Google Gemini and GitHub Copilot as interactive coding assistants to help understand the assignment rubric requirements, learn proper HTML5 structural tags, format complex responsive tables utilizing rowspan and colspan, and design external CSS styles including dark/light mode toggles and smooth layouts. I reviewed, tested, and fully customized all code locally.
+
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: index.html         Section: HTML Structure, Navigation, and Tables
+File: style.css          Section: External CSS Layout, Variables, and Responsive Design
+File: projects.html      Section: Internal Companion Page
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: Rifat Farzad Azad
+Date: 2026-10-23
+
+============================================================
